@@ -1,0 +1,30 @@
+.layout{
+    display: flex;
+    flex-direction: row;
+    padding: 0 20;
+}
+
+.part-1{
+    padding: 0 20;
+    border-right: 1px solid black;
+    height: max-content;
+}
+
+.Search{
+    display:flex;
+    justify-content: flex-start;
+    padding: 20px 0;
+}
+
+#content{
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+}
+
+.input{
+    display: inline-block;
+    padding: 10px; 
+    border: 2px solid black;
+    max-width: 50ch;
+}
